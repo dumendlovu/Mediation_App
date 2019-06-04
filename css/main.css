@@ -1,0 +1,101 @@
+/* line 1, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 11, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .vid-container {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: -10;
+}
+
+/* line 17, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .time-select, .app .sound-picker, .app .player-container {
+  height: 80%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* line 24, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .time-select button, .app .sound-picker button {
+  color: white;
+  width: 30%;
+  height: 10%;
+  background: none;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+/* line 35, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .time-select button:hover {
+  color: black;
+  background: white;
+}
+
+/* line 39, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .sound-picker button {
+  border: none;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+}
+
+/* line 45, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .sound-picker button img {
+  height: 100%;
+}
+
+/* line 49, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .sound-picker button:nth-child(1) {
+  background: #4972a1;
+}
+
+/* line 52, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .sound-picker button:nth-child(2) {
+  background: #a14f41;
+}
+
+/* line 60, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .player-container {
+  position: relative;
+}
+
+/* line 62, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* line 70, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+.app .player-container .time-display {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=../css/main.map */
