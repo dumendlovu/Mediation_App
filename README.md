@@ -1,9 +1,9 @@
 # Mediation_App
 Another Javascript Tutorial for Practice and Modifications from https://www.youtube.com/watch?v=oMBXdZzYqEk&amp;list=WL&amp;index=12&amp;t=0s
 
-#Changes to be Made
+# Changes to be Made
 
-##My fault
+## My fault
 - Some How I made an animation error
 - Buttons need to be centered Properly
 - The Video div's are out of focus and look weird
