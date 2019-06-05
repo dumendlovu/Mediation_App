@@ -21,7 +21,7 @@
   z-index: -10;
 }
 
-/* line 17, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 20, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .time-select, .app .sound-picker, .app .player-container {
   height: 80%;
   flex: 1;
@@ -30,7 +30,7 @@
   justify-content: space-evenly;
 }
 
-/* line 24, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 27, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .time-select button, .app .sound-picker button {
   color: white;
   width: 30%;
@@ -43,13 +43,13 @@
   transition: all 0.5s ease;
 }
 
-/* line 35, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 38, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .time-select button:hover {
   color: black;
   background: white;
 }
 
-/* line 39, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 42, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .sound-picker button {
   border: none;
   border-radius: 50%;
@@ -58,37 +58,37 @@
   padding: 30px;
 }
 
-/* line 45, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 48, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .sound-picker button img {
   height: 100%;
 }
 
-/* line 49, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 52, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .sound-picker button:nth-child(1) {
   background: #4972a1;
 }
 
-/* line 52, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 55, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .sound-picker button:nth-child(2) {
   background: #a14f41;
 }
 
-/* line 60, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 63, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .player-container {
   position: relative;
 }
 
-/* line 62, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 65, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .player-container svg {
   position: absolute;
   height: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 
-/* line 70, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
+/* line 73, /Users/dumezwenindlovu/_Web_Dev_Projects/Mediation_App/sass/main.scss */
 .app .player-container .time-display {
   position: absolute;
   bottom: 10%;
